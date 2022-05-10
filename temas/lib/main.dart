@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Temas demo',
       theme: tema,
-      darkTheme: ThemeData.dark(),
+      darkTheme: temaNoturno,
       home: const MyHomePage(title: 'Exemplo Temas'),
     );
   }
